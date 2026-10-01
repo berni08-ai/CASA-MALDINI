@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Casa Maldini · Restaurant italiano en Luján | Pizza, pasta y focaccia</title>
+<meta name="description" content="Casa Maldini, restaurant italiano en Luján: pizza, pasta y focaccia. Reservas y pedidos por WhatsApp al 2323 55-3222. Adolfo Alsina 1072, Luján.">
+<link rel="canonical" href="https://casa-maldini.vercel.app/">
+<meta name="theme-color" content="#22271a">
+<meta name="color-scheme" content="light">
+<meta name="format-detection" content="telephone=no">
+<meta name="geo.region" content="AR-B">
+<meta name="geo.placename" content="Luján">
+<meta name="geo.position" content="-34.5673183;-59.1125838">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_AR">
+<meta property="og:site_name" content="Casa Maldini">
+<meta property="og:title" content="Casa Maldini · Restaurant italiano en Luján">
+<meta property="og:description" content="Pizza, pasta y focaccia. 4,9 en Google con 230 opiniones. Adolfo Alsina 1072, Luján.">
+<meta property="og:url" content="https://casa-maldini.vercel.app/">
+<meta property="og:image" content="https://casa-maldini.vercel.app/assets/img/og-casa-maldini-v4.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Logo de Casa Maldini junto a una focaccia rellena sobre una tabla de madera">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Casa Maldini · Restaurant italiano en Luján">
+<meta name="twitter:description" content="Pizza, pasta y focaccia. 4,9 en Google con 230 opiniones.">
+<meta name="twitter:image" content="https://casa-maldini.vercel.app/assets/img/og-casa-maldini-v4.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preload" href="assets/fonts/instrument-serif-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/ibm-plex-serif-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/img/logo-crema.webp" as="image" type="image/webp">
+<script>document.documentElement.classList.add('js')</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Casa Maldini",
+  "url": "https://casa-maldini.vercel.app/",
+  "logo": "https://casa-maldini.vercel.app/assets/img/logo-oliva.png",
+  "image": "https://casa-maldini.vercel.app/assets/img/og-casa-maldini-v4.jpg",
+  "telephone": "+54 2323 55-3222",
+  "servesCuisine": ["Italiana", "Pizza", "Pastas", "Focaccia"],
+  "acceptsReservations": true,
+  "hasMenu": "https://casa-maldini.vercel.app/carta/",
+  "sameAs": ["https://www.instagram.com/maldinilujan/"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Adolfo Alsina 1072",
+    "addressLocality": "Luján",
+    "addressRegion": "Provincia de Buenos Aires",
+    "postalCode": "B6700",
+    "addressCountry": "AR"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": -34.5673183, "longitude": -59.1125838 },
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=Casa+Maldini+Adolfo+Alsina+1072+Luj%C3%A1n",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday", "Thursday", "Friday", "Saturday"], "opens": "12:00", "closes": "14:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday", "Thursday", "Sunday"], "opens": "20:00", "closes": "23:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday", "Saturday"], "opens": "20:00", "closes": "23:59" }
+  ]
+}
+</script>
+<style>
+@font-face{font-family:"Instrument Serif";src:url(assets/fonts/instrument-serif-400.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Instrument Serif";src:url(assets/fonts/instrument-serif-400-italic.woff2) format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"IBM Plex Serif";src:url(assets/fonts/ibm-plex-serif-400.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"IBM Plex Serif";src:url(assets/fonts/ibm-plex-serif-600.woff2) format("woff2");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Inter";src:url(assets/fonts/inter-500.woff2) format("woff2");font-weight:500;font-style:normal;font-display:swap}
+
+/* Paleta de la casa: oliva y crema; el dorado es el único acento y se usa fino */
+:root{
+  --olive:#343b26;
+  --olive-deep:#22271a;
+  --moss:#4e5733;
+  --cream:#eae1ca;
+  --parchment:#ddd2b5;
+  --gold:#d1ab48;
+  --line:rgba(52,59,38,.2);
+  --line-dark:rgba(234,225,202,.22);
+  --cream-soft:rgba(234,225,202,.78);
+  --f-display:"Instrument Serif","Cormorant Garamond",Georgia,serif;
+  --f-body:"IBM Plex Serif",Georgia,"Times New Roman",serif;
+  --f-label:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  /* Radios: fotos 18px, todo lo que se toca es píldora */
+  --r-media:18px;
+  --r-pill:9999px;
+  --gutter:clamp(16px,4vw,32px);
+  --section:clamp(88px,11vw,144px);
+  --max:1240px;
+  --ease:cubic-bezier(.16,1,.3,1);
+  /* Capas */
+  --z-header:30;
+  --z-bar:20;
+  --z-menu:40;
+  --z-skip:50;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:100px}
+body{margin:0;background:var(--cream);color:var(--olive);font-family:var(--f-body);font-size:17px;line-height:1.55;overflow-x:clip;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img,video,svg{display:block;max-width:100%}
+a{color:inherit;text-underline-offset:.2em;text-decoration-thickness:1px}
+h1,h2,h3{font-family:var(--f-display);font-weight:400;margin:0;text-wrap:balance}
+p{margin:0 0 1em;text-wrap:pretty}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:6px}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip{position:fixed;left:16px;top:-80px;z-index:var(--z-skip);background:var(--olive);color:var(--cream);padding:12px 18px;border-radius:var(--r-pill);transition:top .2s}
+.skip:focus{top:16px}
+.sprite{position:absolute;width:0;height:0;overflow:hidden}
+.icon{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.wrap{max-width:var(--max);margin:0 auto}
+.h2{font-size:clamp(44px,6.2vw,88px);line-height:.95;letter-spacing:-.025em}
+.lead{font-size:clamp(18px,1.5vw,21px);line-height:1.5;max-width:46ch}
+
+/* ---------- Botones ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:14px 24px;border:1px solid currentColor;border-radius:var(--r-pill);background:transparent;color:inherit;font:600 16px/1.1 var(--f-body);text-decoration:none;white-space:nowrap;cursor:pointer;transition:transform .3s var(--ease),background-color .3s,color .3s,border-color .3s}
+.btn:hover{transform:translateY(-2px)}
+.btn:active{transform:translateY(0) scale(.98)}
+.btn--solid{background:var(--olive);border-color:var(--olive);color:var(--cream)}
+.btn--solid:hover{background:var(--olive-deep);border-color:var(--olive-deep)}
+.btn--cream{background:var(--cream);border-color:var(--cream);color:var(--olive)}
+.btn--cream:hover{background:#f3ecd9;border-color:#f3ecd9}
+.btn--line-light{border-color:rgba(234,225,202,.55);color:var(--cream)}
+.btn--line-light:hover{border-color:var(--cream);background:rgba(234,225,202,.08)}
+.btn--line:hover{background:var(--olive);color:var(--cream);border-color:var(--olive)}
+.link-arrow{display:inline-flex;align-items:center;gap:.5em;font-weight:600;text-decoration:underline;text-decoration-color:var(--gold);text-decoration-thickness:1.5px}
+.link-arrow .icon{transition:transform .3s var(--ease)}
+.link-arrow:hover .icon{transform:translateX(4px)}
+
+/* ---------- Encabezado ---------- */
+.site-header{position:fixed;inset:0 0 auto;z-index:var(--z-header);display:flex;align-items:center;gap:20px;padding:0 var(--gutter);padding-top:env(safe-area-inset-top);height:calc(72px + env(safe-area-inset-top));color:var(--cream);border-bottom:1px solid transparent;transition:background-color .35s,color .35s,border-color .35s}
+.site-header.is-solid{background:var(--cream);color:var(--olive);border-color:var(--line)}
+.brand{position:relative;display:block;flex:none;width:clamp(128px,13vw,152px);transition:opacity .35s,visibility .35s}
+/* Sobre el hero ya está el logo grande: el del encabezado aparece al bajar */
+.site-header:not(.is-solid) .brand{opacity:0;visibility:hidden}
+.brand img{width:100%;height:auto;transition:opacity .35s}
+.brand .brand__dark{position:absolute;inset:0;opacity:0}
+.is-solid .brand .brand__light{opacity:0}
+.is-solid .brand .brand__dark{opacity:1}
+.nav{display:none;gap:30px;margin-left:auto}
+.nav a{font-size:16px;text-decoration:none;background:linear-gradient(var(--gold),var(--gold)) 0 100%/0 1.5px no-repeat;padding-bottom:3px;transition:background-size .35s var(--ease)}
+.nav a:hover,.nav a[aria-current="true"]{background-size:100% 1.5px}
+.header-actions{display:flex;align-items:center;gap:8px;margin-left:auto}
+.pill{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:9px 16px;border:1px solid currentColor;border-radius:var(--r-pill);background:transparent;color:inherit;font:600 15px/1 var(--f-body);text-decoration:none;cursor:pointer;white-space:nowrap;transition:background-color .3s,color .3s}
+.pill .icon{width:16px;height:16px}
+.pill:hover{background:var(--cream);color:var(--olive)}
+.is-solid .pill:hover{background:var(--olive);color:var(--cream)}
+.menu-toggle{padding-inline:14px}
+.menu-toggle span{display:block;width:18px;height:1.5px;background:currentColor;position:relative}
+.menu-toggle span::before,.menu-toggle span::after{content:"";position:absolute;left:0;width:18px;height:1.5px;background:currentColor}
+.menu-toggle span::before{top:-6px}.menu-toggle span::after{top:6px}
+@media (min-width:980px){.nav{display:flex}.header-actions{margin-left:12px}.menu-toggle{display:none}}
+@media (max-width:380px){.pill--call .pill__text{display:none}}
+
+.mnav{position:fixed;inset:0;z-index:var(--z-menu);display:flex;flex-direction:column;padding:max(14px,env(safe-area-inset-top)) var(--gutter) 40px;background:var(--olive-deep);color:var(--cream);transform:translateY(-102%);visibility:hidden;transition:transform .55s var(--ease),visibility 0s .55s}
+.mnav.is-open{transform:none;visibility:visible;transition:transform .55s var(--ease)}
+.mnav__top{display:flex;justify-content:space-between;align-items:center;min-height:58px}
+.mnav__top img{width:136px;height:auto}
+.mnav ul{list-style:none;margin:auto 0;padding:0}
+.mnav li a{display:block;padding:6px 0;font-family:var(--f-display);font-size:clamp(50px,13vw,80px);line-height:1.05;letter-spacing:-.02em;text-decoration:none}
+.mnav__foot{display:grid;gap:10px}
+body.menu-open{overflow:hidden}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;isolation:isolate;overflow:clip;background:var(--olive-deep);color:var(--cream)}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.07;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.hero__mark{position:absolute;z-index:-1;left:-8%;bottom:-6%;width:min(70vw,980px);opacity:.06;pointer-events:none}
+.hero__inner{display:grid;gap:44px;padding:calc(104px + env(safe-area-inset-top)) var(--gutter) 64px}
+.hero h1{margin:0 0 30px}
+.hero h1 img{width:clamp(210px,24vw,340px);height:auto}
+.hero__lema{margin:0 0 14px;font-family:var(--f-display);font-size:clamp(42px,5.2vw,76px);line-height:1;letter-spacing:-.025em}
+.hero__lema em{color:var(--gold)}
+.hero__sub{margin:0 0 34px;max-width:30ch;font-size:clamp(17px,1.4vw,20px);color:var(--cream-soft)}
+.hero__actions{display:flex;flex-wrap:wrap;gap:12px}
+.hero__frame{position:relative;aspect-ratio:4/5;border-radius:var(--r-media);overflow:hidden;background:var(--olive);box-shadow:0 40px 90px -40px rgba(10,12,6,.85)}
+.hero__frame img,.hero__frame video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero__frame video{opacity:0;transition:opacity 1.2s ease}
+.hero__frame video.is-playing{opacity:1}
+.video-toggle{position:absolute;right:14px;bottom:14px;z-index:1;display:inline-grid;place-items:center;width:44px;height:44px;border:1px solid rgba(234,225,202,.5);border-radius:var(--r-pill);background:rgba(34,39,26,.55);color:var(--cream);cursor:pointer;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);transition:background-color .3s}
+.video-toggle:hover{background:rgba(34,39,26,.8)}
+.video-toggle .icon{width:18px;height:18px}
+.video-toggle .i-play{display:none}
+.video-toggle[data-state="paused"] .i-play{display:block}
+.video-toggle[data-state="paused"] .i-pause{display:none}
+@media (min-width:900px){
+  .hero{min-height:100vh;min-height:100dvh;display:grid;align-items:center}
+  .hero__inner{grid-template-columns:minmax(0,1fr) minmax(0,auto);align-items:center;gap:clamp(48px,7vw,120px);width:100%;max-width:var(--max);margin:0 auto;padding-top:calc(96px + env(safe-area-inset-top));padding-bottom:56px}
+  .hero__visual{height:min(calc(100dvh - 168px),760px);aspect-ratio:4/5}
+  .hero__frame{height:100%}
+}
+
+/* ---------- La casa ---------- */
+.about{padding:var(--section) var(--gutter)}
+.about__grid{display:grid;gap:64px;align-items:center}
+.about__text .h2{margin-bottom:28px}
+.about__art{position:relative;min-height:clamp(460px,64vw,700px)}
+.art{position:absolute;margin:0;border-radius:var(--r-media);overflow:hidden;background:var(--parchment)}
+.art img{width:100%;height:100%;object-fit:cover}
+.art--back{top:0;left:0;width:72%;aspect-ratio:4/5}
+.art--front{right:0;bottom:0;width:50%;aspect-ratio:1;outline:10px solid var(--cream)}
+@media (min-width:900px){.about__grid{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:96px}}
+
+/* ---------- Carta ---------- */
+.menu{padding:0 var(--gutter) var(--section)}
+.menu__head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:24px 40px;margin-bottom:56px}
+.menu__head .lead{margin-top:20px}
+.menu__more{margin:48px 0 0;font-size:18px}
+.bento{display:grid;gap:40px 28px}
+.dish{margin:0}
+.dish figure{margin:0;border-radius:var(--r-media);overflow:hidden;background:var(--parchment)}
+.dish img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+.dish:hover img{transform:scale(1.04)}
+.dish--big figure{aspect-ratio:4/5}
+.dish--wide figure{aspect-ratio:3/2}
+.dish h3{margin:20px 0 6px;font-size:clamp(34px,3.4vw,48px);line-height:1;letter-spacing:-.02em}
+.dish p{margin:0;max-width:36ch;font-size:16px}
+.bento__side{display:grid;gap:40px}
+@media (min-width:760px){.bento{grid-template-columns:minmax(0,1.12fr) minmax(0,1fr);align-items:start}}
+.order{display:grid;gap:28px;margin-top:88px;padding:40px clamp(24px,4vw,48px);border-radius:var(--r-media);background:var(--olive);color:var(--cream)}
+.order h3{font-size:clamp(34px,3.6vw,52px);line-height:1}
+.order p{margin:10px 0 0;color:var(--cream-soft)}
+.chips{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.chips li{display:inline-flex;align-items:center;min-height:40px;padding:8px 16px;border:1px solid var(--line-dark);border-radius:var(--r-pill);font-size:15px}
+@media (min-width:980px){.order{grid-template-columns:minmax(0,1fr) minmax(0,1.25fr) auto;align-items:center;gap:40px}}
+
+/* ---------- Opiniones ---------- */
+.reviews{background:var(--parchment);padding:var(--section) var(--gutter)}
+.reviews__grid{display:grid;gap:56px}
+.score{margin:0;font-family:var(--f-display);font-size:clamp(120px,17vw,220px);line-height:.8;letter-spacing:-.05em}
+.score .star{display:inline-block;margin-left:.06em;font-size:.32em;vertical-align:.95em;color:var(--gold);letter-spacing:0}
+.score__meta{margin:18px 0 0;font:500 13px/1.3 var(--f-label);letter-spacing:.08em;text-transform:uppercase}
+.reviews__intro .h2{font-size:clamp(38px,4.6vw,64px);margin:44px 0 18px}
+.reviews__intro .lead{font-size:18px}
+.quotes{display:grid;gap:22px;align-content:start}
+.quote{margin:0;padding:34px 32px 28px;border-radius:var(--r-media);background:var(--cream)}
+.quote blockquote{margin:0}
+.quote p{margin:0;font-family:var(--f-display);font-size:clamp(25px,2.2vw,31px);line-height:1.18;letter-spacing:-.01em}
+.quote figcaption{margin-top:22px;font:500 12px/1.2 var(--f-label);letter-spacing:.08em;text-transform:uppercase;color:rgba(52,59,38,.75)}
+.reviews__more{margin:8px 0 0}
+@media (min-width:960px){.reviews__grid{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:96px;align-items:start}.quote:nth-child(2){margin-left:12%}}
+
+/* ---------- Horarios y ubicación ---------- */
+.visit{padding:var(--section) var(--gutter)}
+.visit__grid{display:grid;gap:80px}
+@media (min-width:980px){.visit__grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:96px}}
+.status{display:flex;align-items:center;gap:10px;min-height:1.6em;margin:22px 0 0;font-size:17px}
+.status[hidden]{display:none}
+.status::before{content:"";width:9px;height:9px;flex:none;border-radius:50%;background:var(--moss);box-shadow:0 0 0 4px rgba(78,87,51,.18)}
+.status.is-closed::before{background:transparent;border:1.5px solid var(--olive);box-shadow:none}
+.hours{list-style:none;margin:36px 0 0;padding:0;border-top:1px solid var(--line)}
+.hours li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 20px;align-items:baseline;padding:18px 0;border-bottom:1px solid var(--line)}
+.hours .d{font-family:var(--f-display);font-size:clamp(26px,2.4vw,32px);line-height:1.1}
+.hours .t{font-size:16px;text-align:right;font-variant-numeric:tabular-nums}
+.hours .t span{display:block}
+.hours li.is-off .d,.hours li.is-off .t{color:rgba(52,59,38,.6)}
+.hours li.is-today .d::after{content:"Hoy";display:inline-block;margin-left:12px;padding:5px 9px 4px;border-radius:var(--r-pill);background:var(--olive);color:var(--cream);font:500 11px/1 var(--f-label);letter-spacing:.08em;text-transform:uppercase;vertical-align:.35em}
+.visit__note{margin:24px 0 0;font-size:16px}
+.visit address{margin:28px 0 28px;font-style:normal;font-size:clamp(20px,2vw,24px);line-height:1.4}
+.map{position:relative;aspect-ratio:4/3;margin-top:32px;border-radius:var(--r-media);overflow:hidden;background:var(--parchment)}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:sepia(.25) saturate(.85)}
+@media (max-width:640px){.map{aspect-ratio:1}}
+
+/* ---------- Pie ---------- */
+.footer{background:var(--olive-deep);color:var(--cream)}
+.footer__inner{display:grid;gap:48px;padding:88px var(--gutter) 40px}
+.footer__logo{width:clamp(200px,22vw,280px);height:auto}
+.footer__links{display:grid;gap:14px;margin:0;padding:0;list-style:none;font-size:17px}
+.footer__links a{display:inline-flex;align-items:center;gap:12px;text-decoration:none}
+.footer__links a span{text-decoration:underline;text-decoration-color:var(--line-dark);text-underline-offset:.25em}
+.footer__links a:hover span{text-decoration-color:var(--gold)}
+.footer__legal{grid-column:1/-1;margin:0;padding-top:24px;border-top:1px solid var(--line-dark);font-size:14px;color:var(--cream-soft)}
+@media (min-width:760px){.footer__inner{grid-template-columns:auto auto;justify-content:space-between;align-items:end}}
+@media (max-width:959px){.footer__inner{padding-bottom:120px}}
+
+/* ---------- Barra de acciones (celular) ---------- */
+.actionbar{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:var(--z-bar);display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:8px;border-radius:calc(var(--r-pill));background:var(--olive-deep);box-shadow:0 18px 40px -18px rgba(20,24,12,.7);transform:translateY(170%);transition:transform .45s var(--ease)}
+.actionbar.is-visible{transform:none}
+.actionbar .btn{min-height:48px;padding:12px 14px;font-size:15px}
+@media (min-width:960px){.actionbar{display:none}}
+
+/* ---------- Revelado ---------- */
+.js .reveal{opacity:0;transform:translateY(24px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.js .reveal.is-in{opacity:1;transform:none}
+.js .reveal-2{transition-delay:.12s}
+
+/* ---------- Parallax por capas (transform), con scroll-driven animations donde existe ---------- */
+@media (prefers-reduced-motion:no-preference){
+  @supports (animation-timeline:scroll()){
+    .px-hero{animation:px-hero linear both;animation-timeline:scroll(root);animation-range:0 100vh}
+    .px-hero--content{--px:-14vh;--fade:0}
+    .px-hero--frame{--px:-5vh;--fade:1}
+    .px-hero--mark{--px:10vh;--fade:.06}
+    @keyframes px-hero{to{transform:translate3d(0,var(--px),0);opacity:var(--fade)}}
+    .px-view{animation:px-view linear both;animation-timeline:view();animation-range:cover}
+    .px-view--back{--from:6%;--to:-6%}
+    .px-view--front{--from:18%;--to:-18%}
+    @keyframes px-view{from{transform:translate3d(0,var(--from),0)}to{transform:translate3d(0,var(--to),0)}}
+  }
+}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .js .reveal{opacity:1;transform:none;transition:none}
+  .hero__frame video{transition:none}
+  .mnav,.actionbar,.btn,.dish img,.nav a{transition:none}
+  .btn:hover,.btn:active{transform:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<svg class="sprite" width="0" height="0" aria-hidden="true">
+  <!-- Íconos de Tabler Icons (MIT), trazo 1.75 -->
+  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"/><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"/><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"/><path d="M16.5 7.5l0 .01"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"/><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12l14 0"/><path d="M13 18l6 -6"/><path d="M13 6l6 6"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><path d="M6 5m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z"/><path d="M14 5m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4v16l13 -8z"/></symbol>
+</svg>
+
+<header class="site-header" id="top">
+  <a class="brand" href="#inicio" aria-label="Casa Maldini, ir al inicio">
+    <img class="brand__light" src="assets/img/wordmark-crema.webp" width="748" height="194" alt="">
+    <img class="brand__dark" src="assets/img/wordmark-oliva.webp" width="748" height="194" alt="">
+  </a>
+  <nav class="nav" aria-label="Principal">
+    <a href="#nosotros">Nosotros</a>
+    <a href="carta/">Carta</a>
+    <a href="#opiniones">Opiniones</a>
+    <a href="#horarios">Horarios</a>
+    <a href="#ubicacion">Cómo llegar</a>
+  </nav>
+  <div class="header-actions">
+    <a class="pill pill--call" href="tel:+542323553222" aria-label="Llamar al 02323 55-3222">
+      <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+      <span class="pill__text">Llamar</span>
+    </a>
+    <button class="pill menu-toggle" type="button" aria-expanded="false" aria-controls="mnav"><span></span><b class="sr-only">Abrir menú</b></button>
+  </div>
+</header>
+
+<div class="mnav" id="mnav" role="dialog" aria-modal="true" aria-label="Menú">
+  <div class="mnav__top">
+    <img src="assets/img/wordmark-crema.webp" width="748" height="194" alt="Casa Maldini">
+    <button class="pill" type="button" data-close>Cerrar</button>
+  </div>
+  <ul>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="carta/">Carta</a></li>
+    <li><a href="#opiniones">Opiniones</a></li>
+    <li><a href="#horarios">Horarios</a></li>
+    <li><a href="#ubicacion">Cómo llegar</a></li>
+  </ul>
+  <div class="mnav__foot">
+    <a class="btn btn--cream" href="https://wa.me/5492323553222?text=Hola%2C%20quiero%20hacer%20una%20reserva%20en%20Casa%20Maldini." target="_blank" rel="noopener">
+      <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>Reservar por WhatsApp
+    </a>
+  </div>
+</div>
+
+<main id="contenido">
+  <section class="hero" id="inicio" aria-label="Casa Maldini">
+    <img class="hero__mark px-hero px-hero--mark" src="assets/img/mark-crema.webp" width="537" height="201" alt="" aria-hidden="true" data-depth="0.1">
+    <div class="hero__inner">
+      <div class="hero__content px-hero px-hero--content" data-depth="-0.14" data-fade>
+        <h1><img src="assets/img/logo-crema.webp" width="748" height="584" alt="Casa Maldini Luján" fetchpriority="high"></h1>
+        <p class="hero__lema">Pizza, pasta <em>&amp;</em> focaccia.</p>
+        <p class="hero__sub">Restaurant italiano en Luján. Vení a comer a casa.</p>
+        <div class="hero__actions">
+          <a class="btn btn--cream" href="https://wa.me/5492323553222?text=Hola%2C%20quiero%20hacer%20una%20reserva%20en%20Casa%20Maldini." target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>Reservar por WhatsApp
+          </a>
+          <a class="btn btn--line-light" href="tel:+542323553222">
+            <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Llamar
+          </a>
+        </div>
+      </div>
+      <div class="hero__visual px-hero px-hero--frame" data-depth="-0.05">
+        <div class="hero__frame">
+          <img id="hero-poster" src="assets/video/hero-poster-720.webp" srcset="assets/video/hero-poster-720.webp 720w, assets/video/hero-poster-1080.webp 1080w" sizes="(min-width:900px) 40vw, 92vw" width="1080" height="1350" alt="Focaccia rellena sobre una tabla de madera" fetchpriority="high" decoding="async">
+          <video id="hero-video" muted loop playsinline autoplay preload="none" disablepictureinpicture aria-hidden="true" tabindex="-1"></video>
+          <button class="video-toggle" type="button" data-state="playing" aria-label="Pausar video">
+            <svg class="icon i-pause" aria-hidden="true"><use href="#i-pause"/></svg>
+            <svg class="icon i-play" aria-hidden="true"><use href="#i-play"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="nosotros" aria-labelledby="about-title">
+    <div class="about__grid wrap">
+      <div class="about__text reveal">
+        <h2 class="h2" id="about-title">El italiano de las abuelas.</h2>
+        <p class="lead">Pizzas, pastas y focaccias que hablan el italiano de las abuelas que son de allá, pero crecieron acá y nos cocinaron toda la vida.</p>
+      </div>
+      <div class="about__art" data-parallax>
+        <figure class="art art--back px-view px-view--back" data-depth="-0.06">
+          <img src="assets/img/pasta-mesa-800.webp" srcset="assets/img/pasta-mesa-480.webp 480w, assets/img/pasta-mesa-800.webp 800w, assets/img/pasta-mesa-1200.webp 1200w" sizes="(min-width:900px) 38vw, 70vw" width="1200" height="1500" alt="Ñoquis con salsa servidos en un bowl de masa, mientras alguien corta un pedazo del borde" loading="lazy" decoding="async">
+        </figure>
+        <figure class="art art--front px-view px-view--front" data-depth="0.1">
+          <img src="assets/img/focaccia-trento-800.webp" srcset="assets/img/focaccia-trento-480.webp 480w, assets/img/focaccia-trento-800.webp 800w, assets/img/focaccia-trento-1200.webp 1200w" sizes="(min-width:900px) 27vw, 48vw" width="1200" height="1193" alt="Focaccia Trento cortada al medio, con mortadela, queso, pistacho y cebolla morada" loading="lazy" decoding="async">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu" id="carta" aria-labelledby="menu-title">
+    <div class="wrap">
+      <div class="menu__head reveal">
+        <h2 class="h2" id="menu-title">Lo que más se pide.</h2>
+        <a class="btn btn--solid" href="carta/">Ver la carta completa<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="bento">
+        <article class="dish dish--big reveal">
+          <figure>
+            <img src="assets/img/focaccia-bondiola-800.webp" srcset="assets/img/focaccia-bondiola-480.webp 480w, assets/img/focaccia-bondiola-800.webp 800w, assets/img/focaccia-bondiola-1145.webp 1145w" sizes="(min-width:760px) 50vw, 92vw" width="1145" height="1431" alt="Focaccia rellena de bondiola braseada y queso derretido" loading="lazy" decoding="async">
+          </figure>
+          <h3>Focaccias</h3>
+          <p>Focaccias rellenas. Entre las más pedidas, la de bondiola braseada.</p>
+        </article>
+        <div class="bento__side">
+          <article class="dish dish--wide reveal reveal-2">
+            <figure>
+              <img src="assets/img/pizza-funari-790.webp" srcset="assets/img/pizza-funari-480.webp 480w, assets/img/pizza-funari-790.webp 790w" sizes="(min-width:760px) 44vw, 92vw" width="790" height="527" alt="Pizza con tomates cherry, cebolla morada, nachos y salsa verde" loading="lazy" decoding="async">
+            </figure>
+            <h3>Pizzas</h3>
+            <p>La especialidad de la casa y lo que más se nombra en las opiniones.</p>
+          </article>
+          <article class="dish dish--wide reveal reveal-2">
+            <figure>
+              <img src="assets/img/pasta-noquis-800.webp" srcset="assets/img/pasta-noquis-480.webp 480w, assets/img/pasta-noquis-800.webp 800w, assets/img/pasta-noquis-1200.webp 1200w" sizes="(min-width:760px) 44vw, 92vw" width="1200" height="800" alt="Ñoquis con salsa de tomate y albahaca en un bowl de masa" loading="lazy" decoding="async">
+            </figure>
+            <h3>Pastas</h3>
+            <p>Pastas frescas, como los ñoquis en bowl de masa o los sorrentinos de queso y jamón.</p>
+          </article>
+        </div>
+      </div>
+      <p class="menu__more reveal"><a class="link-arrow" href="carta/">Ver la carta completa <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></p>
+      <div class="order reveal">
+        <div>
+          <h3>Para cerrar, postres y helados.</h3>
+          <p>Y si preferís comer en casa, pedí para llevar o con delivery.</p>
+        </div>
+        <ul class="chips" aria-label="Cómo pedir">
+          <li>En el salón</li>
+          <li>Para llevar</li>
+          <li>Delivery</li>
+          <li>PedidosYa</li>
+        </ul>
+        <a class="btn btn--cream" href="https://wa.me/5492323553222?text=Hola%2C%20quiero%20hacer%20un%20pedido%20a%20Casa%20Maldini." target="_blank" rel="noopener">
+          <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>Pedir por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews" id="opiniones" aria-labelledby="reviews-title">
+    <div class="reviews__grid wrap">
+      <div class="reviews__intro reveal">
+        <p class="score" aria-hidden="true">4,9<span class="star">★</span></p>
+        <p class="score__meta"><span class="sr-only">4,9 </span>sobre 5 en 230 opiniones de Google</p>
+        <h2 class="h2" id="reviews-title">Lo que dicen quienes ya vinieron.</h2>
+        <p class="lead">Destacan la calidad de los ingredientes, las porciones abundantes, el ambiente cálido y la atención.</p>
+        <p class="reviews__more"><a class="link-arrow" href="https://www.google.com/maps/search/?api=1&amp;query=Casa+Maldini+Adolfo+Alsina+1072+Luj%C3%A1n" target="_blank" rel="noopener">Leer todas las opiniones <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></p>
+      </div>
+      <div class="quotes">
+        <figure class="quote reveal">
+          <blockquote><p>“Excelente pizzería! Atención de 10, los mozas súper amables y atentas. La pizza impecable…”</p></blockquote>
+          <figcaption>Opinión en Google</figcaption>
+        </figure>
+        <figure class="quote reveal reveal-2">
+          <blockquote><p>“Excelente lugar, cenamos sorrentinos rellenos de queso y jamón. Muy abundante y exquisitos. Muy buena atención. Recomendable.”</p></blockquote>
+          <figcaption>Opinión en Google</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="visit" aria-label="Horarios y ubicación">
+    <div class="visit__grid wrap">
+      <div id="horarios" class="reveal">
+        <h2 class="h2">Horarios.</h2>
+        <p class="status" id="status" aria-live="polite" hidden></p>
+        <ul class="hours" aria-label="Horarios por día">
+          <li data-days="3 4"><span class="d">Miércoles y jueves</span><span class="t"><span>12:00 a 14:30</span><span>20:00 a 23:00</span></span></li>
+          <li data-days="5 6"><span class="d">Viernes y sábado</span><span class="t"><span>12:00 a 14:30</span><span>20:00 a 00:00</span></span></li>
+          <li data-days="0"><span class="d">Domingo</span><span class="t"><span>20:00 a 23:00</span></span></li>
+          <li data-days="1 2" class="is-off"><span class="d">Lunes y martes</span><span class="t"><span>Cerrado</span></span></li>
+        </ul>
+        <p class="visit__note">Reservas y pedidos al <a href="tel:+542323553222">02323 55-3222</a> o por <a href="https://wa.me/5492323553222?text=Hola%2C%20quiero%20hacer%20una%20reserva%20en%20Casa%20Maldini." target="_blank" rel="noopener">WhatsApp</a>.</p>
+      </div>
+      <div id="ubicacion" class="reveal reveal-2">
+        <h2 class="h2">Cómo llegar.</h2>
+        <address>Adolfo Alsina 1072<br>B6700 Luján, Provincia de Buenos Aires</address>
+        <a class="btn btn--solid" href="https://www.google.com/maps/dir/?api=1&amp;destination=Casa+Maldini%2C+Adolfo+Alsina+1072%2C+B6700+Luj%C3%A1n%2C+Buenos+Aires" target="_blank" rel="noopener">
+          <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Abrir indicaciones
+        </a>
+        <div class="map">
+          <iframe title="Mapa de Casa Maldini en Adolfo Alsina 1072, Luján" src="https://www.google.com/maps?q=Casa+Maldini,+Adolfo+Alsina+1072,+Luj%C3%A1n,+Buenos+Aires&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="contacto">
+  <div class="footer__inner wrap">
+    <img class="footer__logo" src="assets/img/logo-crema.webp" width="748" height="584" alt="Casa Maldini Luján" loading="lazy">
+    <ul class="footer__links">
+      <li><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Casa+Maldini%2C+Adolfo+Alsina+1072%2C+B6700+Luj%C3%A1n%2C+Buenos+Aires" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span>Adolfo Alsina 1072, Luján</span></a></li>
+      <li><a href="tel:+542323553222"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><span>02323 55-3222</span></a></li>
+      <li><a href="https://wa.me/5492323553222?text=Hola%2C%20quiero%20hacer%20una%20reserva%20en%20Casa%20Maldini." target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg><span>WhatsApp</span></a></li>
+      <li><a href="https://www.instagram.com/maldinilujan/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg><span>@maldinilujan</span></a></li>
+    </ul>
+    <p class="footer__legal">© <span id="year">2026</span> Casa Maldini</p>
+  </div>
+</footer>
+
+<nav class="actionbar" aria-label="Acciones rápidas">
+  <a class="btn btn--cream" href="https://wa.me/5492323553222?text=Hola%2C%20quiero%20hacer%20una%20reserva%20en%20Casa%20Maldini." target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>Reservar</a>
+  <a class="btn btn--line-light" href="https://www.google.com/maps/dir/?api=1&amp;destination=Casa+Maldini%2C+Adolfo+Alsina+1072%2C+B6700+Luj%C3%A1n%2C+Buenos+Aires" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Cómo llegar</a>
+</nav>
+
+<script>
+(() => {
+  const $ = (s, c = document) => c.querySelector(s);
+  const $$ = (s, c = document) => [...c.querySelectorAll(s)];
+  const motionQuery = matchMedia('(prefers-reduced-motion: reduce)');
+  const saveData = !!(navigator.connection && navigator.connection.saveData);
+  let reduce = motionQuery.matches;
+
+  /* Video del hero: 4:5, 720 px en celulares y 1080 px en pantallas grandes */
+  const hero = $('.hero');
+  const video = $('#hero-video');
+  const poster = $('#hero-poster');
+  const toggle = $('.video-toggle');
+  let userPaused = false;
+
+  const size = matchMedia('(min-width: 900px)').matches && devicePixelRatio * innerWidth >= 1400 ? 1080 : 720;
+  video.poster = `assets/video/hero-poster-${size}.webp`;
+  const attachSources = () => {
+    if (video.querySelector('source')) return;
+    [['webm', 'video/webm; codecs="vp9"'], ['mp4', 'video/mp4']].forEach(([ext, type]) => {
+      const source = document.createElement('source');
+      source.src = `assets/video/hero-${size}.${ext}`;
+      source.type = type;
+      video.appendChild(source);
+    });
+    video.load();
+  };
+  const setState = playing => {
+    toggle.dataset.state = playing ? 'playing' : 'paused';
+    toggle.setAttribute('aria-label', playing ? 'Pausar video' : 'Reproducir video');
+  };
+  const tryPlay = () => { attachSources(); const p = video.play(); if (p) p.catch(() => setState(false)); };
+
+  video.addEventListener('playing', () => { video.classList.add('is-playing'); setState(true); });
+  video.addEventListener('pause', () => setState(false));
+  toggle.addEventListener('click', () => {
+    if (video.paused) { userPaused = false; tryPlay(); }
+    else { userPaused = true; video.pause(); }
+  });
+
+  if (reduce || saveData) {
+    video.removeAttribute('autoplay');
+    userPaused = true;
+    setState(false);
+  } else {
+    /* La foto de portada pinta primero; el video se pide después de la carga */
+    const start = () => {
+      tryPlay();
+      new IntersectionObserver(([entry]) => {
+        if (entry.isIntersecting) { if (!userPaused) tryPlay(); }
+        else if (!video.paused) video.pause();
+      }).observe(hero);
+    };
+    if (document.readyState === 'complete') start();
+    else addEventListener('load', start, { once: true });
+  }
+
+  /* Encabezado sólido y barra de acciones: se activan con IntersectionObserver */
+  const header = $('.site-header');
+  const bar = $('.actionbar');
+  const sentinel = document.createElement('div');
+  sentinel.style.cssText = 'position:absolute;top:0;left:0;width:1px;height:48px;pointer-events:none';
+  document.body.prepend(sentinel);
+  new IntersectionObserver(([e]) => header.classList.toggle('is-solid', !e.isIntersecting)).observe(sentinel);
+  new IntersectionObserver(([e]) => bar.classList.toggle('is-visible', !e.isIntersecting), { threshold: 0, rootMargin: '0px 0px -40% 0px' }).observe(hero);
+
+  /* Parallax de respaldo para navegadores sin scroll-driven animations (Firefox, iOS viejos).
+     Solo corre mientras la capa está en pantalla y escribe transforms en un requestAnimationFrame. */
+  if (!CSS.supports('animation-timeline: scroll()')) {
+    const layers = $$('[data-depth]').map(el => ({ el, host: el.closest('[data-parallax]') || hero, depth: parseFloat(el.dataset.depth) }));
+    const fades = $$('[data-fade]');
+    const visible = new Set();
+    let ticking = false;
+    const render = () => {
+      ticking = false;
+      if (reduce) return;
+      const vh = innerHeight;
+      layers.forEach(l => {
+        if (!visible.has(l.host)) return;
+        const r = l.host.getBoundingClientRect();
+        const offset = (l.host === hero ? r.top : r.top + r.height / 2 - vh / 2) * l.depth;
+        l.el.style.transform = `translate3d(0, ${offset.toFixed(1)}px, 0)`;
+      });
+      if (visible.has(hero)) {
+        const fade = Math.max(0, 1 + hero.getBoundingClientRect().top / (vh * 0.6));
+        fades.forEach(el => { el.style.opacity = fade.toFixed(3); });
+      }
+    };
+    const request = () => { if (!ticking && visible.size) { ticking = true; requestAnimationFrame(render); } };
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => e.isIntersecting ? visible.add(e.target) : visible.delete(e.target));
+      request();
+    });
+    new Set(layers.map(l => l.host)).forEach(h => io.observe(h));
+    addEventListener('scroll', request, { passive: true });
+    addEventListener('resize', request);
+    motionQuery.addEventListener('change', e => {
+      reduce = e.matches;
+      if (reduce) { layers.forEach(l => { l.el.style.transform = ''; }); fades.forEach(el => { el.style.opacity = ''; }); }
+      request();
+    });
+  }
+
+  /* Revelado al entrar en pantalla */
+  const revealer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) { entry.target.classList.add('is-in'); revealer.unobserve(entry.target); }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  $$('.reveal').forEach(el => revealer.observe(el));
+
+  /* Menú móvil */
+  const mnav = $('#mnav');
+  const menuBtn = $('.menu-toggle');
+  const setMenu = open => {
+    mnav.classList.toggle('is-open', open);
+    menuBtn.setAttribute('aria-expanded', String(open));
+    document.body.classList.toggle('menu-open', open);
+    if (open) $('a', mnav).focus(); else menuBtn.focus({ preventScroll: true });
+  };
+  menuBtn.addEventListener('click', () => setMenu(true));
+  $('[data-close]', mnav).addEventListener('click', () => setMenu(false));
+  $$('a', mnav).forEach(a => a.addEventListener('click', () => setMenu(false)));
+  addEventListener('keydown', e => { if (e.key === 'Escape' && mnav.classList.contains('is-open')) setMenu(false); });
+
+  /* Abierto o cerrado ahora, con la hora de Argentina */
+  const sched = { 0: [[1200, 1380]], 1: [], 2: [], 3: [[720, 870], [1200, 1380]], 4: [[720, 870], [1200, 1380]], 5: [[720, 870], [1200, 1440]], 6: [[720, 870], [1200, 1440]] };
+  const dayNames = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'];
+  const hhmm = m => `${String(Math.floor(m / 60) % 24).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}`;
+  const parts = Object.fromEntries(new Intl.DateTimeFormat('en-US', { timeZone: 'America/Argentina/Buenos_Aires', weekday: 'short', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(new Date()).map(p => [p.type, p.value]));
+  const today = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 }[parts.weekday];
+  const now = parseInt(parts.hour, 10) * 60 + parseInt(parts.minute, 10);
+  const status = $('#status');
+  const open = sched[today].find(([a, b]) => now >= a && now < b);
+  let text;
+  if (open) {
+    text = `Abierto ahora, hasta las ${hhmm(open[1])}.`;
+  } else {
+    const later = sched[today].find(([a]) => a > now);
+    if (later) text = `Cerrado ahora. Abrimos hoy a las ${hhmm(later[0])}.`;
+    else {
+      for (let i = 1; i <= 7; i++) {
+        const d = (today + i) % 7;
+        if (sched[d].length) { text = `Cerrado ahora. Abrimos ${i === 1 ? 'mañana' : 'el ' + dayNames[d]} a las ${hhmm(sched[d][0][0])}.`; break; }
+      }
+    }
+  }
+  status.textContent = text;
+  status.classList.toggle('is-closed', !open);
+  status.hidden = false;
+  const row = $$('.hours li').find(li => li.dataset.days.split(' ').includes(String(today)));
+  if (row) row.classList.add('is-today');
+
+  $('#year').textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
